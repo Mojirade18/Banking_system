@@ -1,0 +1,8 @@
+print('Welcome to the Mini Bio Generator!')
+name = input("Enter your name: ").lower().strip()
+age = ('Enter your age: ')
+favourite_number = ('Enter your favourite number: ')
+hobby = ('Write a short sentence about your hobby: ')
+print(f"Lower case name: {name}")
+print(f"Upper case name: {name.upper()}")
+print(f"First three letters of your name: {name[:2]}")
