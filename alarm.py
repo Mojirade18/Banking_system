@@ -14,7 +14,7 @@ print(f"\nHello {name}! 📚")
 print(f"You are studying {subject} for {study_minutes} minutes.")
 print(f"Your session will end at {end_time.strftime('%H:%M:%S')}.\n")
 
-# Countdown loop
+# Countdown loops
 for remaining in range(study_minutes, 0, -1):
     print(f"{remaining} minute(s) left... Keep going! 💪")
     time.sleep(60)  # Wait for 1 minute
@@ -22,4 +22,3 @@ for remaining in range(study_minutes, 0, -1):
 # Session complete
 print("\n⏰ Time's up!")
 print(f"Great work, {name}! Take a break now before your next study session. 🌟")
-v
