@@ -21,4 +21,4 @@ for remaining in range(study_minutes, 0, -1):
 
 # Session complete
 print("\n⏰ Time's up!")
-print(f"Great work, {name}! Take a break now before your next study session. 🌟")
+print(f"Great work, {name}! Take a break now before your next study session. ")
