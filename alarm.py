@@ -20,5 +20,5 @@ for remaining in range(study_minutes, 0, -1):
     time.sleep(60)  # Wait for 1 minute
 
 # Session complete
-print("\n⏰ Time's up!")
+print("\n⏰ Time's up")
 print(f"Great work, {name}! Take a break now before your next study session. ")
